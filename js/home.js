@@ -92,6 +92,9 @@ var filas = [
         
     }
 ];
+localStorage.setItem('filas', JSON.stringify(filas));
+let juegoDestacado = 'gtavi-row';
+localStorage.setItem('juegoDestacado', juegoDestacado);
 
 
 
